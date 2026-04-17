@@ -15,6 +15,7 @@ sudos/
 ├── main.py
 ├── requirements.txt
 ├── README.md
+streamlit_app.py
 │
 ├── core/
 │   ├── graph.py
@@ -145,56 +146,6 @@ route, cost = full_local_search(route, dist)
 print(route, cost)
 ```
 
----
-
-## Deployment Options
-
-### Option A — Run Locally
-
-```bash
-python main.py
-```
-
-### Option B — GitHub Repository
-
-```bash
-git init
-git add .
-git commit -m "initial commit: SUDOS DAA project"
-git branch -M main
-git remote add origin https://github.com/<your-username>/sudos.git
-git push -u origin main
-```
-
-### Option C — Streamlit Web App
-
-```bash
-pip install streamlit
-streamlit run app.py
-```
-
-### Option D — Docker
-
-```dockerfile
-FROM python:3.12-slim
-WORKDIR /app
-COPY . .
-RUN pip install -r requirements.txt
-CMD ["python", "main.py"]
-```
-
-```bash
-docker build -t sudos .
-docker run sudos
-```
-
-### Option E — Google Colab
-
-```bash
-!python main.py
-```
-
----
 
 ## Algorithm Reference
 
@@ -227,14 +178,3 @@ The system must apply and compare multiple DAA paradigms.
 
 ---
 
-## Submission Checklist
-
-* GitHub public repo
-* README.md present
-* requirements.txt present
-* Consistent git commits
-* Report (10–15 pages)
-* Presentation (10 slides)
-* Video demo link
-
----
