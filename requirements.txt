@@ -1,0 +1,7 @@
+# SUDOS — Python dependencies
+# Core runs on standard library only (Python 3.8+).
+# Install extras for testing and visualisation:
+
+pytest>=7.0        # unit tests      :  pip install pytest
+matplotlib>=3.7    # route plots      :  pip install matplotlib
+networkx>=3.0      # graph utilities  :  pip install networkx
