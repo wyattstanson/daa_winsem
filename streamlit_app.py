@@ -10,7 +10,7 @@ from itertools import permutations
 
 st.set_page_config(
     page_title="SUDOS — Smart Urban Delivery Optimizer",
-    page_icon="🚚",
+    
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -378,7 +378,7 @@ with st.sidebar:
     ])
     
     st.markdown("---")
-    run_btn = st.button("🚀 Run Optimization")
+    run_btn = st.button(" Run Optimization")
 
 
 st.markdown("""
